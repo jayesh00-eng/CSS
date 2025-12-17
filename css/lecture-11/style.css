@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.body{
+    height: 100vh;
+    width: 100%;
+}
+
+
+.div{
+    text-align: center;
+    margin-top: 80px;
+}
+.button{
+    width:100px;
+    height: 50px;
+    border-radius: 8px;
+    background: linear-gradient(to right, #ff4b1f,#1fddff);
+    color: white;
+    font-weight: 500;
+    transition: transform 1s;
+    
+}
+
+.button:hover{
+    background: linear-gradient(to right,#0099F7,#F11712);
+    transform: rotate(180deg);
+}
